@@ -22,61 +22,32 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
+      "children": <label
+        className="react-cookie-law-option-label"
+      >
+        Necessary
         <input
           checked={false}
           className="react-cookie-law-option-checkbox"
           id="check-required-cookies"
           onChange={[Function]}
           type="checkbox"
-        />,
-        <span>
-          Necessary
-        </span>,
-      ],
+        />
+        <div
+          className="react-cookie-law-option-checkbox-indicator"
+        />
+      </label>,
       "className": "react-cookie-law-option-wrapper",
       "style": undefined,
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "checked": false,
-          "className": "react-cookie-law-option-checkbox",
-          "id": "check-required-cookies",
-          "onChange": [Function],
-          "style": undefined,
-          "type": "checkbox",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "input",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Necessary",
-          "style": undefined,
-        },
-        "ref": null,
-        "rendered": "Necessary",
-        "type": "span",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
+          "Necessary",
           <input
             checked={false}
             className="react-cookie-law-option-checkbox"
@@ -84,15 +55,16 @@ ShallowWrapper {
             onChange={[Function]}
             type="checkbox"
           />,
-          <span>
-            Necessary
-          </span>,
+          <div
+            className="react-cookie-law-option-checkbox-indicator"
+          />,
         ],
-        "className": "react-cookie-law-option-wrapper",
+        "className": "react-cookie-law-option-label",
         "style": undefined,
       },
       "ref": null,
       "rendered": Array [
+        "Necessary",
         Object {
           "instance": null,
           "key": undefined,
@@ -114,14 +86,96 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Necessary",
-            "style": undefined,
+            "className": "react-cookie-law-option-checkbox-indicator",
           },
           "ref": null,
-          "rendered": "Necessary",
-          "type": "span",
+          "rendered": null,
+          "type": "div",
         },
       ],
+      "type": "label",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <label
+          className="react-cookie-law-option-label"
+        >
+          Necessary
+          <input
+            checked={false}
+            className="react-cookie-law-option-checkbox"
+            id="check-required-cookies"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <div
+            className="react-cookie-law-option-checkbox-indicator"
+          />
+        </label>,
+        "className": "react-cookie-law-option-wrapper",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Necessary",
+            <input
+              checked={false}
+              className="react-cookie-law-option-checkbox"
+              id="check-required-cookies"
+              onChange={[Function]}
+              type="checkbox"
+            />,
+            <div
+              className="react-cookie-law-option-checkbox-indicator"
+            />,
+          ],
+          "className": "react-cookie-law-option-label",
+          "style": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          "Necessary",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "checked": false,
+              "className": "react-cookie-law-option-checkbox",
+              "id": "check-required-cookies",
+              "onChange": [Function],
+              "style": undefined,
+              "type": "checkbox",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "react-cookie-law-option-checkbox-indicator",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "label",
+      },
       "type": "div",
     },
   ],
